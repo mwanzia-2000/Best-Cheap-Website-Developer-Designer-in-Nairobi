@@ -401,27 +401,6 @@ h3.my-profession {
 }
 
 /* 📱 Mobile Responsiveness */
-@media (max-width: 768px) {
-  .home .home-img {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-top: 30px;
-  }
-
-  .home .home-img img {
-    max-width: 220px;
-  }
-
-  .home .home-img::before,
-  .home .home-img::after {
-    display: absolute; /* Optional: hide corner accents on mobile */
-  }
-}
-.home .home-img img {
-  display: block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
 
 
 /* Home End */
