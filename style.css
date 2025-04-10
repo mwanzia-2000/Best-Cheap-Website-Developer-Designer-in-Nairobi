@@ -32,6 +32,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-image: url('degree-01.jpeg');
+  background-size: cover; /* Ensures the image covers the whole screen */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image */
+  height: 100vh; /* Ensures body takes full viewport height */
+  margin: 0; /* Removes default margin */
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
 body.dark {
   --bg-black-900: #151515;
   --bg-black-100: #222222;
