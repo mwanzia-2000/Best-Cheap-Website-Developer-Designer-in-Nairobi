@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mwanzia-2000.github.io/porto/sitemap.xml
