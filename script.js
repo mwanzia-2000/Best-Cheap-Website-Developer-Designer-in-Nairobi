@@ -90,17 +90,5 @@ function asideSectionTogglerBtn() {
   aside.classList.toggle("open");
   navTogglerBtn.classList.toggle("open");
 }
-// Optional: Pulse animation when page loads
-window.onload = () => {
-  const btn = document.querySelector('.whatsapp-button');
-  btn.style.animation = 'pulse 1s ease-in-out';
-};
 
-
-/* Add to your CSS */
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.15); }
-  100% { transform: scale(1); }
-}
 
