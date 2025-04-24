@@ -1014,6 +1014,27 @@ textarea.form-control {
 .btn:hover {
   background: #005ecb;
 }
+/* Floating WhatsApp Button */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+.whatsapp-button img {
+  width: 40px;
+  height: 40px;
+}
+
 
 
 
